@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<!-- CISC 3300 SP24
+    HOMEWORK 2  
+    Stephanie Silva
+
+    1. Define structural vs semantic meaning in regard to HTML elements.
+        structural -has an effect on the structure of a page but doesn't necessarily convey any
+        meaning. it can be used to describe both headings and paragraphs.
+        semantic - intended to convey meaning with that element type, even if it is 
+	    indistinguishable from other elements visually. provides extra information, such as 
+        emphasis on a word.
+
+        ex: bold vs strong
+
+    2. Why is it important to use correct html elements when designing web pages?
+        It is important to use correct html elements when designing web pages because it helps the user navigate
+        through the website and  it allows for structure in order to understand the content.
+
+    3. What are forms in html? What is their purpose? When would you use one?
+        A form is like a printed document that allows for the user to fill in with information. It gives you a set of elements
+        to collect data from the user. The best known form is the google searchbar which not only allows users to search something but 
+        it allows them to perform other functuons like signing up for something as well. A form can be used by adding text, making choices,
+        uploading a file, or submitting a form. A form has an action and a method.
+        
+    4. Define and contrast inline vs block elements.
+        inline - these elements do not start on a new line, and sit within a block level element. could be <p>, <h1>, etc.
+        these elements are on the same line as their neighboring elements.
+        block - these elements always appear on a new line. could be <b>, <em>, <img>, etc.
+   
+-->
+
+        <html>
+            <body>
+                <!--text elements -->
+                
+                <!-- this is the header, content on its own line via a div-->
+                <div id="header">
+                    <h1 style = "font-family: andale mono; font-size: 340%;">Crumbl Cookies
+                    <!--image from webpage directory, (I downloaded it) -->
+                    <img src="Crumbl-Cookies-logo.jpeg" alt="Crumbl Cookies logo" width = "300" height ="180" float= "right" style="border:5px solid rgb(240, 164, 177)"></img>
+                    </h1>
+                </div>
+                
+                
+                <p1 style = "font-family: andale mono; font-size: 200%;">Hi Welcome to Crumbl! here are our flavors for this week, hope you enjoy!</p1>
+          
+              <h2 style = "font-family: andale mono; font-size: 150%;"> Cookie Flavors (Changes Every Week)</h2>
+              <p2 style = "font-family: andale mono;">
+        
+                <dl>
+                    <!--list with multiple list items -->
+
+                    <!--2 pieces of content (the list item and the color for the word chocolate)-->
+                    <li>Milk <span style="color:brown">Chocolate</span> Chip</li>
+
+                    <!--image from external link -->
+                    <img src="https://crumbl.video/cdn-cgi/image/width=1200,format=auto,quality=80/https://crumbl.video/6c54f810-416b-4266-a628-fc00b5d4ed49_MilkChocolateChip_FlyingAerial_TECH.png" 
+                    alt="Milk Chocolate Chip Cookie" width = "180" height ="130" text-align= "right" style="border:5px solid rgb(240, 164, 177)"></img>
+                
+                    <br><br>
+                    
+                    <li>S'mores </li>
+                    <!--image from external link -->
+                    <img src="https://crumbl.video/cdn-cgi/image/width=1200,format=auto,quality=80/https://crumbl.video/ce1deb6c-c43d-434f-890a-d5d12d4de95b_Smores_FlyingAerial_TECH.png" 
+                    alt="S'mores Cookie" width = "180" height ="130" text-align= "right" style="border:5px solid rgb(240, 164, 177)"></img>
+        
+                    <br><br>
+        
+                    <li>Vanilla Crumbl Cake ft Oreo</li>
+                    <!--image from external link -->
+                    <img src="https://crumbl.video/cdn-cgi/image/width=1200,format=auto,quality=80/https://crumbl.video/a07baa38-c50a-4b51-acb6-a47651d48b7f_VanillaCrumbCakeFt.GoldenOreo_FlyingAerial_TECH.png" 
+                    alt="Vanilla Crumbl Cookie" width = "180" height ="130" text-align= "right" style="border:5px solid rgb(240, 164, 177)"></img>
+        
+                    <br><br>
+        
+                    <li>Chocolate Mallow Cupcake</li>
+                    <!--image from external link -->
+                    <img src="https://crumbl.video/cdn-cgi/image/width=1200,format=auto,quality=80/https://crumbl.video/583fa1c2-7d86-4f89-8d1c-755c08e15182_ChocolateMallowCupcake_FlyingAerial_TECH.png" 
+                    alt="Chocolate Mallow Cupcake Cookie" width = "180" height ="130" text-align= "right" style="border:5px solid rgb(240, 164, 177)"></img>
+                    
+                    <br><br>
+                    <li>Sugar ft Mother's Circus Animal</li>
+                    <!--image from external link -->
+                    <img src="https://crumbl.video/cdn-cgi/image/width=1200,format=auto,quality=80/https://crumbl.video/13496191-77d6-40c0-bdaa-868538a35f35_SugarFtMothersCircusAnimal_FlyingAerial_TECH.png" 
+                    alt="Sugar Cookie" width = "180" height ="130" text-align= "right" style="border:5px solid rgb(240, 164, 177)"></img>
+        
+                </dl>
+                
+            </p2>
+            
+            <!-- table with at least two columns, two rows, headers, and some content-->
+            <p3 style = "font-family: andale mono; font-size: 130%">
+        
+                <table style="width:100%">
+                    <tr>
+                      <th style="width:10%"><u>Love Our Cookies?</u></th>
+                      <th style="width:50%"><u>Fun Fact About Us!</u></th>
+                    </tr>
+        
+                    <tr >
+                      <td>Follow us on instagram @crumbl</td>
+                      <td> We have the same menu across the country!</td>
+                    </tr>
+        
+                    <tr>
+                        <td>  Follow us on facebook too @crumbl </td>
+                      <td>"Crumbl has expanded to over 800+ bakeries in 50 states, making it the fastest-growing cookie company in the U.S."</td>
+                    </tr>
+        
+                  </table> 
+        
+            </p3>
+        
+            <br><br>
+
+            <p4>
+                <!--link to a second html page, checkout.html -->
+                <button style = "padding: .5em; border-radius: 5px; font-family:andale mono; font-size: 15px; background-color: #ffffff;color:rgb(240, 164, 177);"; 
+                onclick= "window.location.href= 'checkout.html' "title = "This will redirect you to checkout!"> CHECKOUT </button>
+            </p4>
+            
+            <br><br><br><br>
+
+            <!--link to an external webpage -->
+            <p5 style = "font-family: andale mono;">
+                <a href = "https://crumblcookies.com/stores"> Click here if you want to find any crumbl locations near you!</a><br><br>
+            </p5>
+
+            <!-- This is a form, that has 2 inputs (first and last name) and a checkbox to rate as well as a text area to put additional comments-->
+            <h3 style = "font-family: andale mono; font-size: 150%">Please give us your feedback by filling out this quick survey!</h3>
+            
+            <br>
+
+            <p6>
+                <form style = "font-family: andale mono; font-size: 110%">
+                    <label for="firstname">First name:</label>
+                    <input type="text" id="firstname" name="firstname"><br>
+
+                    <br>
+
+                    <label for="lastname">Last name:</label>
+                    <input type="text" id="lastname" name="lastname">
+                  </form>
+
+            </p6>
+
+            <h4 style = "font-family: andale mono; font-size: 130%"> Rate your experience!</h4>
+
+            <p7 style = "font-family: andale mono; font-size: 130%">
+                <form>
+                    <input type="radio" id="Bad" name="rating" value="Bad">
+                    <label for="Bad">Bad</label><br>
+
+                    <input type="radio" id="Okay" name="rating" value="Okay">
+                    <label for="Okay">Okay</label><br>
+
+                    <input type="radio" id="Great" name="rating" value="Great">
+                    <label for="Great">Great</label>
+
+                  </form>
+            </p7>
+            
+            <p8>
+                <form> 
+                    <p style = "font-family: andale mono; font-size: 130%">Thank you for stopping by! You can leave any additional feedback here:</p>
+                    <textarea name="additional comments" cols="15" rows="5">Additional Comments...</textarea> 
+                </form>
+            </p8>
+
+
+        </body>
+          </html>
