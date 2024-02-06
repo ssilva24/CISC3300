@@ -1,0 +1,19 @@
+3. Compare and contrast margin, padding, and border.
+
+In comparison, all three are properties that are available to be adjusted to control the appearance or style. If 
+the width is specified for a box, then all three properties are added to its width and its height
+
+margin - margins are outside(in constrast to paddings) the edge of the border, and is the gap between the borders of boxes that are next to eachother.
+you can set the width of the margin to create a larger gap. The value is commonly in pixels but it can also be used by percentages 
+or ems. if one box sits on top of another box then the margins collapse and the larger of the two will be used and the other will be discarded.
+unlike borders, margins do not have a color or style.
+
+padding - padding is between the text and border of the box (inside, in contrast to margins). it is the space inside the border and between the text within it, and
+increasing the padding can make it easier to read. This padding property as well as the margin property is helpful by adding space between
+various text and items on the page which makes it clearer and more organized. The padding property is more specified in pizels but it can also use
+percentages or ems. if a percentage is used, then the padding is that percentage of the browser. In terms of color, it inherits the background color. 
+
+border - every box has an invisible border that is specified to be 0px. The border is what separates 
+the boxes from one another. You can specify the border style and color. 
+
+

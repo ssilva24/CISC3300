@@ -1,0 +1,28 @@
+4. Define the following flexbox css rules
+
+a. display: flex
+- this defines a flex container, could be either inline or block. It allows for flex context for all its direct children.
+the children of the container are also flex.
+
+b. flex-direction
+this creates a main axis, which defines the direction that the flex items are placed in the container. Flexbox is a single direction layout concept.
+These flex items can be layed out horizontally or vertically. row(is the default), goes from left to right in ltr, and right to left in rtl. row-reverse goes from 
+right to left in ltr, and left to right in rtl.
+column, is just like thr row but top to bottom instead of left to right. column-reverse is the same as row-reverse but bottom to top.
+
+c. flex-wrap
+By the default, all the flex items will attempt to all fit on one line. This can be changed and the items are able to wrap as needed by using
+flex-wrap. items can be wrapped onto several lines in the container. nowrap(is the default), all the flex items will be on one same line. wrap, flex 
+items wrap onto multiple lines going from top to bottom. wrap-reverse, the flex items here are wrapped onto multiple lines as well, but it goes from bottom to top.
+
+d. justify-content/align-items
+This controls the alignment along the main axis. It can help distribute extra free space that is leftover when all the items on the line are inflexible or flexible but
+they have reached the max size. This also allows for one to control the alignment of items. justify-content is what aligns the items along the main axis and align-items is what
+aligns the items in the cross axis. flex-start(is the deafult), where items are towards the start of the flex direction. flex-end, the items are on the opposite end, the end of thre flex direction.
+start, is when the items are towards the start of the writing mode direction. end, where the items are at the end of the writing mode direction. left, the items are toward the left edge of the container; right 
+is when theyre at the right edge. center, the items are centered along the line. space-between, the items are evenly distributed in the line. space-around, the items are evenly distributed with equal space around
+them. space-evenly, the items are distributed so that the spacing between items is equal.       
+
+e. align-content
+This is what aligns the flex's container lines when there is extra space in the cross axis, just how justify-content aligns the individual items in the main axis. 
+

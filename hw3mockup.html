@@ -1,0 +1,178 @@
+<!-- 
+    You are the web designer for the Computer Science Department at Fordham. You have
+been asked to design this mock up for the homepage.
+a. Try to get as close as possible to the mock up, utilizing proper hex codes,
+font(Raleway), etc. It does not need to be pixel perfect.
+b. Use flexbox for the layout
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>homework3mockup</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+
+        <div class="parent-container">
+
+            <div class="majors-container">
+
+                <div class="majors-content-container">
+                    <p style = "font-family: 'Raleway', sans-serif; color:maroon; font-size: 100%;">Majors and Minors</p>
+                    <br>
+                    <div class = "content-button" style = "font-family: 'Raleway', sans-serif; font-size: 90%"> What's Your Passion? <br><br> Accelerated Degree Programs </div>
+                    <br>
+                    <div class="major-button" style = "font-family: 'Raleway', sans-serif; ">Majors and Minors</div>
+                </div>
+
+            </div>
+            <div class="computer-science-container">
+
+                <div class="computer-science-content-container">
+                    <div class="nav" style = "font-family: 'Raleway', sans-serif; font-size: 90%;">
+
+                        Home
+                        <span class="divider">/</span>
+                        Admissions and Aid
+                        <span class="divider">/</span>
+                        Undergraduate Admission
+                        <span class="divider">/</span>
+                        Majors and Minors
+                        <span class="divider" style ="color:maroon;">/ Computer Science</span>
+
+                    </div>
+                    <h1 style = "font-family: 'Raleway', sans-serif; color:maroon; font-size: 300%;"><br>Computer Science</h1>
+                    <div style = "font-family: 'Raleway', sans-serif;"><br>Degree Options: Major, Minor</div>
+                    <div style = "font-family: 'Raleway', sans-serif;">Locations: Lincoln Center, Rose Hill<br></div>
+                    <div style = "font-family: 'Raleway', sans-serif;">Visit the <a href = "https://www.fordham.edu/academics/departments/computer-and-information-science/">Computer and Information Science Department</a></div>
+                    <br><br>
+                    <div style = "font-family: 'Raleway', sans-serif; font-size: 130%;">Wherever there's a computer, there's a skilled person developing, maintaining, hacking, advancing or simply using it. Be that person.</div>
+                    <br><br>
+
+                    <div class ="image">
+                        <img src="https://www.fordham.edu/media/review/content-assets/migrated/images/iStock_000021097427Medium.jpg" alt="computer science image" width = "195" height ="195" text-align= "right"></img>
+                    </div>
+
+                    <div style = "font-family: 'Raleway', sans-serif;">
+                        It's difficult to imagine life without computers when they're so central to our information-driven global society. But it's not difficult to 
+                        imagine the amazing pursuits you'll be prepared for with a degree in computer science from Fordham's department of Computer and Information Sciences.
+                    </div>
+
+                    <br><br>
+                    <div style = "font-family: 'Raleway', sans-serif;">
+                        The computer science major emphasizes science and technology, including software design and programming, computer architecture and functions, and the development 
+                        of an ability to analyze and solve problems in using the computer as a tool.
+                    </div>
+
+                    <br><br>
+
+                    <div style = "font-family: 'Raleway', sans-serif;">
+                        Get inspired by the classes we offer. Programming. Bioinformatics. Robotics. Video game design. Cyber security. Networking. Database management. Health and medical informatics.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <style>
+
+            body {
+                height: 100vh;
+            }
+
+            .parent-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+
+            .computer-science-container {
+                order: 1;
+                padding: 0 50px;
+            }
+
+            a:link 
+            {
+                color: maroon;
+            }
+
+            a:visited 
+            {
+                color: maroon;
+            }
+
+            .majors-container {
+                order: 2;
+                display: flex;
+                flex-direction: column;
+                border-right: 1px solid #e7ebe7;
+            }
+            .majors-content-container {
+                padding: 0 50px;
+            }
+
+            .divider {
+                padding: 0 5px;
+            }
+
+            @media screen and (min-width: 1200px) {
+
+                .parent-container {
+                    flex-direction: row;
+                }
+                .computer-science-container {
+                    width: 900px;
+                    order: 2;
+                }
+
+                .majors-container {
+                    width: 400px;
+                    order: 1
+                }
+            }
+
+            .majors-container .majors-content-container p {
+                margin: 0;
+            }
+
+            .content-button
+            {
+                text-align: left;
+                background-color: rgba(173, 166, 166, 0.279);
+                color:black;
+                padding: 10px; 
+            }
+            .major-button {
+                text-align: center;
+                background-color: maroon;
+                color:white;
+                padding: 20px;
+            }
+
+            .computer-science-container .computer-science-content-container h1 {
+                margin: 0;
+            }
+
+            .image
+            {
+                float: right;
+            }
+        </style>
+
+    </body>
+</html>
