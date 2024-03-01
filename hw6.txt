@@ -1,0 +1,29 @@
+What is HTTP? What are the different HTTP request methods and how do they differ?
+    - stands for Hyper Text Transfer Protocol
+    - it is how the internet handles communication between clients and servers, is done by requests and responses.
+    - HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser.
+        get - should only ever retrieve data
+        post - submits an entity to the specified resource, often causing a change in state or side effects on the server - usually something to be saved
+        put - method replaces all current representations of the target resource with the request payload - update everything for a resource
+        patch - partially modify a resource - not really used much, post is more common
+        delete - delete a resource
+
+What is an API? What is JSON?
+    - API - An application programming interface, it is a way for two or more computer programs or components to communicate with each other.
+    - APIs let humans interact with programs; they let programs and scripts talk to each other
+    - When you know what the API allows you to do, you can decide if its the right tool for the job.
+
+    JSON: JavaScript object notation
+    - a standard text-based format for representing structured data based on JavaScript object syntaxp
+    - text data but JS is ready to parse it into javascript objects and vice versa
+    - When JSON data is sent from a server to a web browser, it is transmitted as a string.
+    - This is known as deserializing an object.
+    - we can use the global JSON object to parse the string, and turn it into JS objects
+    - The JSON object also has a method called stringify(), which converts objects into a string using JSON notation so it can be sent from the browser back to a server. This is also known as serializing an object.
+
+ What is AJAX? What is meant by asynchronous code?
+    - stands for Asynchronous JavaScript And XML
+    - Ajax is a technique for loading data into part of a page without having to refresh the entire page.
+    - Browsers have a built in XMLHttpRequest object to allow asynchronous requests without reloading the page
+    - asynchronous code is meant to allow your code to run in the background while not blocking the execution of the code
+    - it enables your program to run while still being able to respomnd to other events while it is running instead of doing it after the task is finished

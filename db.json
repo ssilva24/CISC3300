@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "1709144841688",
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": "9e07",
+      "name": "new resource"
+    },
+    {
+      "id": "5b1d",
+      "name": "new resource"
+    },
+    {
+      "id": "4811",
+      "name": "new resource"
+    },
+    {
+      "id": "53ff",
+      "name": "new resource"
+    },
+    {
+      "id": "ec6b",
+      "name": "new resource"
+    },
+    {
+      "id": "5255",
+      "name": "new resource"
+    },
+    {
+      "id": "bf4a",
+      "name": "new resource"
+    },
+    {
+      "id": "794f",
+      "name": "new resource"
+    },
+    {
+      "id": "4773",
+      "name": "new resource"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>homework6 question4</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+
+        <script>
+
+            //Write a get request to request the data from one of the resources.
+                $.ajax({
+                    url: 'http://localhost:3000/posts',
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        console.log(data);
+                    }
+                });
+
+            
+            //Write a post request to add a new resource.
+                const postresource = { name: "new resource"};
+
+                $.ajax({
+                    url: 'http://localhost:3000/posts',
+                    type: "POST",
+                    data: JSON.stringify(postresource),
+                    dataType: "json",
+                    success: function (data) {
+                        console.log(data);
+                    }
+                });
+
+
+            //Write a put request to replace a previous resource.
+                const putresource = {name: "replaced resource"};
+
+                $.ajax({
+                    url:'http://localhost:3000/posts/${postId}',
+                    type: "PUT",
+                    data: JSON.stringify(putresource),
+                    dataType: "json",
+                    success: function (data){
+                        console.log("PUT Request:");
+                        console.log(data);
+                    }
+                })
+
+        </script>
+
+    </body>
+</html>
